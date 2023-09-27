@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EFfGPj2AFLrKVM5TcQHNz/V8PpRdVX8Ci2GypNhzgyOt5F3qBV7b9pSum+zHghdpuCalFrKXWH9lt2vwP/y7CQ==",
+  "success": true,
+  "projectFilePath": "D:\\тест 2\\Web\\Web_Task_22\\Web_Task_22.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kerby\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

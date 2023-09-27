@@ -1,0 +1,152 @@
+﻿<Window x:Class="Wpf_Task_22.View.DataPhoneBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewmodels="clr-namespace:Wpf_Task_22.View.ViewModel.DataModel.SourceModel"
+        xmlns:viewadminmodel="clr-namespace:Wpf_Task_22.View.ViewModel.DataModel.AdminModel"
+        xmlns:viewsadmin="clr-namespace:Wpf_Task_22.View.Views.AdminControl"   
+        xmlns:views="clr-namespace:Wpf_Task_22.View.Views.DataUserControl"   
+        xmlns:local="clr-namespace:Wpf_Task_22.View.ViewModel.DataModel"
+        mc:Ignorable="d"
+        Title="Телефонная книга" 
+        MinHeight="700" 
+        MinWidth="800"
+        Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <local:MainDataModel/>
+    </Window.DataContext>
+    <Window.Resources>
+        <DataTemplate x:Name="UserListViewTemplate" DataType="{x:Type viewadminmodel:UserListModel}">
+            <viewsadmin:UserListView DataContext="{Binding}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="AddUserTemplate" DataType="{x:Type viewadminmodel:AddUserModel}">
+            <viewsadmin:AddUser DataContext="{Binding}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="EditDataViewTemplate" DataType="{x:Type viewmodels:EditDataModel}">
+            <views:EditDataView DataContext="{Binding}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="EditPhotoViewTemplate" DataType="{x:Type viewmodels:EditPhotoModel}">
+            <views:EditPhotoView DataContext="{Binding}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="CharacterTableViewTemplate" DataType="{x:Type viewmodels:CharacterTableModel}">
+            <views:CharacterTable DataContext="{Binding}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="AddDataViewTemplate" DataType="{x:Type viewmodels:AddDataModel}">
+            <views:AddDataView DataContext="{Binding}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="CharacterInfoModelViewTemplate" DataType="{x:Type viewmodels:CharacterInfoModel}">
+            <views:CharacterInfo DataContext="{Binding}"/>
+        </DataTemplate>
+        <Style TargetType="{x:Type Button}" x:Key="ButtonCastom">
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="20"/>
+            <Setter Property="Margin" Value="5 0 0 0"/>
+            <Setter Property="BorderBrush" Value="#A1A6B4"/>
+            <Setter Property="Background" Value="#FFF"/>
+            <Setter Property="BorderThickness" Value="2"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <DockPanel Background="White"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"/>
+        <Border    Grid.Row="0"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                   BorderThickness="2"
+                   BorderBrush="#FFD4C6C6" Cursor="">
+            <StackPanel Orientation="Horizontal"
+                        Background="#FFF0EDED">
+                <Button Style="{StaticResource ButtonCastom}"
+                        Margin="15 0 0 0"
+                        Command="{Binding Path=TransitioBackCommand}" Cursor="Hand">
+                    <Image Source="\Icons\arrow.png"/>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            Назад 
+                        </ToolTip>
+                    </Button.ToolTip>
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="3"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button Style="{StaticResource ButtonCastom}"
+                        Command="{Binding Path=AddDataCommand}"
+                        x:Name="AddPerson">
+                    <Image Source="\Icons\plus.png"/>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            Добавить запись
+                        </ToolTip>
+                    </Button.ToolTip>
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="3"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button Style="{StaticResource ButtonCastom}"
+                        Command="{Binding AddUserCommand}"
+                        x:Name="AddUser">
+                    <Image Source="\Icons\people_plus.png"/>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            Зарегестирровать пользователя
+                        </ToolTip>
+                    </Button.ToolTip>
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="3"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button Style="{StaticResource ButtonCastom}"
+                        Command="{Binding GetListUserCommand}"
+                        x:Name="GetUserList">
+                    <Image Source="\Icons\list.png"/>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            Загрузить пользователей
+                        </ToolTip>
+                    </Button.ToolTip>
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="3"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </StackPanel>
+        </Border>
+       
+        <TextBlock x:Name="RoleUser"
+                   Grid.Row="0"
+                   Grid.Column="1"
+                   FontSize="18"
+                   Foreground="#FFE8B40F"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Center"
+                   Margin="0 0 20 0"/>
+
+        <ContentControl Grid.Row="2" 
+                        Grid.Column="0" 
+                        Grid.ColumnSpan="2"  
+                        Content="{Binding SelectViewModel, Mode=TwoWay}"/>
+    </Grid>
+</Window>

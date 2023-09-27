@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/normalize.css">
+    <link rel="stylesheet" href="~/libs/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="~/libs/choices.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/login_style8.css">
+    <link rel="stylesheet" href="~/css/media2.css">
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row row-castom">
+            <div class="col-12">
+             <nav class="nav">
+                   <ul class=" list-btn list-reset">
+                        @await Component.InvokeAsync("LogoutView")
+                    </ul>
+                </nav>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-12 padding--bottom">
+                <h1 class="title">
+                    Телефонная книга
+                </h1>
+            </div>
+        </div>
+        @RenderBody()
+    </div>
+    
+
+</body>
+
+</html>

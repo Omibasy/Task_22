@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Новая запись";
+}
+
+<div class="row">
+    <div class="col-12">
+        <form id="SubmittingAForm" enctype="multipart/form-data" action="UploadingNewData" method="post" class="form">
+            <div class="box-right">
+                <label class="label" for="phone">
+                    <span class="label__span">Введите номер телефона</span>
+                    <input id="phone" name="PhoneNumber" class="input" type="tel">
+                </label>
+                <label class="label label-addres" for="addres">
+                    <span class="label__span">Введите адрес</span>
+                    <input id="addres" name="Address" type="text" class="input">
+                </label>
+                <label class="label input-file" for="file">
+                    <span class="label__text">Выберите файл</span>
+                    <span class="input-file-text" type="text">Файл формата jpg 350x310</span>
+                    <input onchange='uploadFile(this)' type="file" name="file" id="file" class="input input__file-old">
+                    <span class="input-file-btn">Вставте фото</span>
+                </label>
+            </div>
+            <div class="box-left">
+                <label class="label" for="Name">
+                    <span class="label__span">Введите имя</span>
+                    <input id="Name" name="Name" class="input" type="text">
+                </label>
+                <label class="label" for="Surname">
+                    <span class="label__span">Введите фамилию</span>
+                    <input id="Surname" name="Surname" class="input" type="text">
+                </label>
+                <label class="label" for="Patronymic">
+                    <span class="label__span">Введите отчество</span>
+                    <input id="Patronymic" name="Patomic" class="input" type="text">
+                </label>
+            </div>
+            <label class="label label-descr" for="Description">
+                <span class="label__span">Введите описание</span>
+                <textarea class="textarea input" name="Description" id="Description" cols="30" rows="10"></textarea>
+            </label>
+            <button class="button">
+                Добавить
+            </button>
+        </form>
+    </div>
+</div>
+
+<script src="~/libs/just-validate.production.min.js"></script>
+<script src="~/libs/inputmask.min.js"></script>
+<script src="~/js/index.js"></script>

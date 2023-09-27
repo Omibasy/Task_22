@@ -1,0 +1,39 @@
+@media (max-width: 1200px) {
+
+    .input-file-text {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .input-file-btn {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .btn-custom {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .text-name {
+        margin-top: 4px;
+    }
+
+    .button-esc {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+
+
+    @media (max-width: 992px) {
+
+        .list-links__item:nth-last-child(1) .button {
+            height: 100%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+ 
+    }

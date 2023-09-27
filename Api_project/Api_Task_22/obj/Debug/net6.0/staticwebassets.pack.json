@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\тест 2\\Api\\Api_Task_22\\wwwroot\\Photo\\photoDefault.jpg",
+      "PackagePath": "staticwebassets\\Photo\\photoDefault.jpg"
+    },
+    {
+      "Id": "D:\\тест 2\\Api\\Api_Task_22\\wwwroot\\Photo\\photo_1.jpg",
+      "PackagePath": "staticwebassets\\Photo\\photo_1.jpg"
+    },
+    {
+      "Id": "D:\\тест 2\\Api\\Api_Task_22\\wwwroot\\Photo\\photo_2.638310686104845594.jpg",
+      "PackagePath": "staticwebassets\\Photo\\photo_2.638310686104845594.jpg"
+    },
+    {
+      "Id": "D:\\тест 2\\Api\\Api_Task_22\\wwwroot\\Photo\\photo_3.0.jpg",
+      "PackagePath": "staticwebassets\\Photo\\photo_3.0.jpg"
+    },
+    {
+      "Id": "D:\\тест 2\\Api\\Api_Task_22\\wwwroot\\Photo\\photo_4.0.jpg",
+      "PackagePath": "staticwebassets\\Photo\\photo_4.0.jpg"
+    },
+    {
+      "Id": "D:\\тест 2\\Api\\Api_Task_22\\wwwroot\\Photo\\photo_5.0.jpg",
+      "PackagePath": "staticwebassets\\Photo\\photo_5.0.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Api_Task_22.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Api_Task_22.props",
+      "PackagePath": "build\\Api_Task_22.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Api_Task_22.props",
+      "PackagePath": "buildMultiTargeting\\Api_Task_22.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Api_Task_22.props",
+      "PackagePath": "buildTransitive\\Api_Task_22.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

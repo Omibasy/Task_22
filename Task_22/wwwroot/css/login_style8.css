@@ -1,0 +1,181 @@
+:root {
+    --blue: #3d97c3;
+    --color-white: #fff;
+    --color-black-haze: #F5F6F7;
+    --color-gray-chateau: #A1A6B4;
+    --color-dull-lavender: #AA9DFA;
+}
+
+
+.hystmodal-registrations,
+.hystmodal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    z-index: 99;
+    padding: 80px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.hystmodal .col-5,
+.hystmodal-registrations .col-7 {
+    position: relative;
+    background-color: #1f2739;
+    border-radius: 15px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    min-height: initial;
+    max-height: 600px;
+}
+
+.hystmodal-registrations .col-7 {
+    max-height: 720px;
+}
+
+.hystmodal-registrations__form,
+.hystmodal__form {
+    width: 100%;
+}
+
+.hystmodal-registrations__title,
+.hystmodal__title {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+    color: var(--blue);
+    margin: 0 0 17px;
+}
+
+
+.hystmodal-registrations__label,
+.hystmodal__label {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.hystmodal__label {
+    margin-bottom: 31px;
+}
+
+.hystmodal__label:nth-child(2) {
+   margin-bottom: 12px;
+}
+
+
+
+.hystmodal-registrations__input,
+.hystmodal__input {
+    width: 100%;
+    border: 1px solid var(--color-white);
+    border-radius: 30px;
+    background-color: #1f2739;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--color-black-haze);
+    padding: 23.9px 32px;
+    outline: none;
+    transition: color 0.3s linear, background 0.3s linear, border-color 0.3s linear;
+}
+
+.hystmodal-registrations__input:hover,
+.hystmodal__input:hover {
+   background: #293348;
+   border-color: var(--color-white);
+   color: var(--color-gray-chateau);
+}
+
+.hystmodal-registrations__input:active,
+.hystmodal__input:active {
+    background: #364362;
+    border-color: var(--color-white);
+    color: var(--color-white);
+}
+
+.hystmodal-registrations__input:focus,
+.hystmodal__input:focus {
+    background: #293348;
+    border-color: var(--color-dull-lavender);
+    color: var(--color-gray-chateau);
+}
+
+.hystmodal-registrations__span-label,
+.hystmodal__span-label {
+    visibility: hidden;
+}
+
+.hystmodal-registrations__btn,
+.hystmodal__btn {
+    display: block;
+    padding: 25px 54px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    border-radius: 40px;
+    color: var(--color-black-haze);
+    background-color: rgb(43, 153, 91);
+    transition: background 0.3s linear, outline 0.3s linear;
+}
+
+.hystmodal-registrations__btn {
+    margin-top:31px;
+}
+
+.hystmodal-registrations__btn:hover,
+.hystmodal__btn:hover {
+    background-color: rgb(75, 183, 141);
+}
+
+.hystmodal-registrations__btn:focus,
+.hystmodal__btn:focus {
+   outline: 2px solid rgb(33, 126, 74);
+   background-color: rgb(46, 111, 87);
+}
+
+.hystmodal-registrations__btn:active,
+.hystmodal__btn:active {
+    background-color: rgb(32, 204, 138);
+}
+
+.enter--active {
+    color: var(--color-black-haze);
+}
+
+.hystmodal-registrations__label .just-validate-error-label,
+.hystmodal__label .just-validate-error-label {
+    position: absolute;
+    left: 32px;
+    top: 25px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.input-url {
+    visibility: hidden;
+}
+
+.text-danger {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    color: red;
+}
+
+    .text-danger ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }

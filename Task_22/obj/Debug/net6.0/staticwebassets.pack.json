@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\card\\photo_1.3.jpg",
+      "PackagePath": "staticwebassets\\card\\photo_1.3.jpg"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\card\\photo_2.2.jpg",
+      "PackagePath": "staticwebassets\\card\\photo_2.2.jpg"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\card\\photo_3.9.jpg",
+      "PackagePath": "staticwebassets\\card\\photo_3.9.jpg"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\card\\photo_4.1.jpg",
+      "PackagePath": "staticwebassets\\card\\photo_4.1.jpg"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\css\\login_style8.css",
+      "PackagePath": "staticwebassets\\css\\login_style8.css"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\css\\media2.css",
+      "PackagePath": "staticwebassets\\css\\media2.css"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\img\\delete-cat.png",
+      "PackagePath": "staticwebassets\\img\\delete-cat.png"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\js\\InfoIndex.js",
+      "PackagePath": "staticwebassets\\js\\InfoIndex.js"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\js\\LoginScript1.js",
+      "PackagePath": "staticwebassets\\js\\LoginScript1.js"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\js\\PutIndex.js",
+      "PackagePath": "staticwebassets\\js\\PutIndex.js"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\js\\PutPhoto.js",
+      "PackagePath": "staticwebassets\\js\\PutPhoto.js"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\js\\deleteCheckbox2.js",
+      "PackagePath": "staticwebassets\\js\\deleteCheckbox2.js"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\js\\registration-user.js",
+      "PackagePath": "staticwebassets\\js\\registration-user.js"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\js\\registration2.js",
+      "PackagePath": "staticwebassets\\js\\registration2.js"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\libs\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\libs\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\libs\\choices.min.css",
+      "PackagePath": "staticwebassets\\libs\\choices.min.css"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\libs\\choices.min.js",
+      "PackagePath": "staticwebassets\\libs\\choices.min.js"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\libs\\inputmask.min.js",
+      "PackagePath": "staticwebassets\\libs\\inputmask.min.js"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\libs\\jquery.min.js",
+      "PackagePath": "staticwebassets\\libs\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\libs\\jquery.min.map",
+      "PackagePath": "staticwebassets\\libs\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\тест 2\\Web_IP\\Task_22\\wwwroot\\libs\\just-validate.production.min.js",
+      "PackagePath": "staticwebassets\\libs\\just-validate.production.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Task_22.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Task_22.props",
+      "PackagePath": "build\\Task_22.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Task_22.props",
+      "PackagePath": "buildMultiTargeting\\Task_22.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Task_22.props",
+      "PackagePath": "buildTransitive\\Task_22.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

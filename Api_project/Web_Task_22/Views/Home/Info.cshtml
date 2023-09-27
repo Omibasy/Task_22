@@ -1,0 +1,104 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Информация";
+}
+
+<div class="row">
+    <div class="col-4">
+        <a href="~/" class="btn">
+            Назад
+        </a>
+    </div>
+    @if (User.IsInRole("admin"))
+    {
+        <div class="col-8">
+            <ul class="list-links list-reset">
+                <li class="list-links__item">
+                    <a href="~/Admin/ChangePhotoView?id=@ViewBag.Data.Data.PersonID.ID" class="button">
+                        Рудактировать фото
+                    </a>
+                </li>
+                <li class="list-links__item">
+                    <a href="~/Admin/DataChangesView?id=@ViewBag.Data.Data.PersonID.ID" class=" button">
+                        Рудактировать запись
+                    </a>
+                </li>
+                <li class="list-links__item">
+                    <button data="@ViewBag.Data.Data.PersonID.ID" class="button-delete button">
+                        Удалить
+                    </button>
+                </li>
+            </ul>
+        </div>
+    }
+</div>
+<div class="row box-info">
+    <div class="picture col-4">
+        <img class="image" src=@ViewBag.Data.HepfImg alt="фото человека">
+    </div>
+    <address class="address col-8">
+        <ul class="list list-reset">
+            <li class="item table__row--not-even">
+                <p class="descr">
+                    ID
+                </p>
+                <p id="recordID" class="text text--castom">
+                    @ViewBag.Data.Data.PersonID.ID
+                </p>
+            </li>
+            <li class="item table__row--even">
+                <p class="descr">
+                    Имя
+                </p>
+                <p class="text">
+                    @ViewBag.Data.Data.PersonID.Name
+                </p>
+            </li>
+            <li class="item table__row--not-even">
+                <p class="descr">
+                    Фамилия
+                </p>
+                <p class="text">
+                    @ViewBag.Data.Data.PersonID.Surname
+                </p>
+            </li>
+            <li class="item table__row--even">
+                <p class="descr">
+                    Отчество
+                </p>
+                <p class="text">
+                    @ViewBag.Data.Data.PersonID.Patomic
+                </p>
+            </li>
+            <li class="item table__row--not-even">
+                <p class="descr">
+                    Номер телефона
+                </p>
+                <p class="text">
+                    @ViewBag.Data.Data.PhoneNumber
+                </p>
+            </li>
+            <li class="item table__row--even">
+                <p class="descr">
+                    Адрес
+                </p>
+                <p class="text">
+                    @ViewBag.Data.Data.Address
+                </p>
+            </li>
+        </ul>
+    </address>
+</div>
+<div class="row box-additionally">
+    <div class="col-12">
+        <h2 class="heading">
+            Описание
+        </h2>
+        <p class="text text-left">
+            @ViewBag.Data.Data.Description
+        </p>
+    </div>
+</div>
+
+<script src="~/libs/jquery.min.js"></script>
+<script src="~/js/InfoIndex_1.js"></script>

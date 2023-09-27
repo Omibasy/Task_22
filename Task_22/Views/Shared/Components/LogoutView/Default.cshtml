@@ -1,0 +1,64 @@
+﻿
+
+@if (User.Identity.IsAuthenticated)
+{
+    <li class="list-btn__item">   
+        @if (User.IsInRole("admin"))
+        {
+            <a class="text-name" href="~/">
+                <p>
+                    Админинистратор @User.Identity.Name в системе
+                </p>
+            </a>
+        }
+        else
+        {
+            <a class="text-name" href="~/">
+                <p>
+                    Пользователь @User.Identity.Name в системе
+                </p>
+            </a>
+        }  
+    </li>
+    @if (User.IsInRole("admin"))
+    {
+        <li class="list-btn__item">
+            <a href="~/Admin/AddUser" class="button">
+                Добавить пользователя
+            </a>
+        </li>
+        <li class="list-btn__item">
+            <a href="~/Admin/ViewUsers" class="button">
+                Посмотреть пользователей
+            </a>
+        </li>
+    }
+    @if (User.IsInRole("admin") || User.IsInRole("user"))
+    {
+        <li class="list-btn__item">
+            <a href="~/Home/Add" class="button">
+                Добавить запись
+            </a>
+        </li>
+    }
+    <li class="list-btn__item">
+        <form method="post" asp-controller="Account" asp-action="Logout"
+              id="logoutform" asp-antiforgery="true">
+            <input class="button button-esc" type="submit" value="Выход" />
+        </form>
+    </li>
+}
+else
+{
+    <li class="list-btn__item">
+        <a class="button  enter-btn" href="/Account/Login">
+            Вход
+        </a>
+    </li>
+    <li class="list-btn__item">
+        <a class="registrations-btn button" href="/Account/Register">
+            Регистрация
+        </a>
+    </li>
+}
+

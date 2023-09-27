@@ -1,0 +1,248 @@
+D:\тест\Task_22\bin\Debug\net6.0\Task_22.staticwebassets.runtime.json
+D:\тест\Task_22\bin\Debug\net6.0\Task_22.exe
+D:\тест\Task_22\bin\Debug\net6.0\Task_22.deps.json
+D:\тест\Task_22\bin\Debug\net6.0\Task_22.runtimeconfig.json
+D:\тест\Task_22\bin\Debug\net6.0\Task_22.dll
+D:\тест\Task_22\bin\Debug\net6.0\Task_22.pdb
+D:\тест\Task_22\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\тест\Task_22\bin\Debug\net6.0\EntityFramework.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\тест\Task_22\bin\Debug\net6.0\System.CodeDom.dll
+D:\тест\Task_22\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\тест\Task_22\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\тест\Task_22\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\тест\Task_22\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\тест\Task_22\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\тест\Task_22\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\тест\Task_22\obj\Debug\net6.0\Task_22.csproj.AssemblyReference.cache
+D:\тест\Task_22\obj\Debug\net6.0\Task_22.GeneratedMSBuildEditorConfig.editorconfig
+D:\тест\Task_22\obj\Debug\net6.0\Task_22.AssemblyInfoInputs.cache
+D:\тест\Task_22\obj\Debug\net6.0\Task_22.AssemblyInfo.cs
+D:\тест\Task_22\obj\Debug\net6.0\Task_22.csproj.CoreCompileInputs.cache
+D:\тест\Task_22\obj\Debug\net6.0\Task_22.MvcApplicationPartsAssemblyInfo.cache
+D:\тест\Task_22\obj\Debug\net6.0\staticwebassets\msbuild.Task_22.Microsoft.AspNetCore.StaticWebAssets.props
+D:\тест\Task_22\obj\Debug\net6.0\staticwebassets\msbuild.build.Task_22.props
+D:\тест\Task_22\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Task_22.props
+D:\тест\Task_22\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Task_22.props
+D:\тест\Task_22\obj\Debug\net6.0\staticwebassets.pack.json
+D:\тест\Task_22\obj\Debug\net6.0\staticwebassets.build.json
+D:\тест\Task_22\obj\Debug\net6.0\staticwebassets.development.json
+D:\тест\Task_22\obj\Debug\net6.0\scopedcss\bundle\Task_22.styles.css
+D:\тест\Task_22\obj\Debug\net6.0\Task_22.csproj.CopyComplete
+D:\тест\Task_22\obj\Debug\net6.0\Task_22.dll
+D:\тест\Task_22\obj\Debug\net6.0\refint\Task_22.dll
+D:\тест\Task_22\obj\Debug\net6.0\Task_22.pdb
+D:\тест\Task_22\obj\Debug\net6.0\Task_22.genruntimeconfig.cache
+D:\тест\Task_22\obj\Debug\net6.0\ref\Task_22.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\тест\Task_22\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\тест\Task_22\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\тест\Task_22\bin\Debug\net6.0\Humanizer.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\тест\Task_22\bin\Debug\net6.0\Azure.Core.dll
+D:\тест\Task_22\bin\Debug\net6.0\Azure.Identity.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\тест\Task_22\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\тест\Task_22\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\тест\Task_22\bin\Debug\net6.0\System.Memory.Data.dll
+D:\тест\Task_22\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\тест\Task_22\bin\Debug\net6.0\System.Text.Json.dll
+D:\тест\Task_22\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\css\login_style8.css
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\css\media2.css
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\css\normalize.css
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\css\style.css
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\img\delete-cat.png
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\js\deleteCheckbox2.js
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\js\index.js
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\js\InfoIndex.js
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\js\LoginScript1.js
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\js\PutIndex.js
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\js\PutPhoto.js
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\js\registration-user.js
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\js\registration2.js
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\libs\bootstrap-grid.min.css
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\libs\choices.min.css
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\libs\choices.min.js
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\libs\inputmask.min.js
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\libs\jquery.min.js
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\libs\jquery.min.map
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\libs\just-validate.production.min.js
+D:\тест\Task_22\bin\Debug\net6.0\appsettings.Development.json
+D:\тест\Task_22\bin\Debug\net6.0\appsettings.json
+D:\тест\Task_22\obj\Debug\net6.0\Task_22.RazorAssemblyInfo.cache
+D:\тест\Task_22\obj\Debug\net6.0\Task_22.RazorAssemblyInfo.cs
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\card\photo3.9.jpg
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\card\photo5.0.jpg
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\card\photo1.3.jpg
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\card\photo4.1.jpg
+D:\тест\Task_22\bin\Debug\net6.0\wwwroot\card\photo2.2.jpg
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\appsettings.Development.json
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\appsettings.json
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\css\login_style8.css
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\css\media2.css
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\css\normalize.css
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\css\style.css
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\img\delete-cat.png
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\js\deleteCheckbox2.js
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\js\index.js
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\js\InfoIndex.js
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\js\LoginScript1.js
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\js\PutIndex.js
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\js\PutPhoto.js
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\js\registration-user.js
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\js\registration2.js
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\libs\bootstrap-grid.min.css
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\libs\choices.min.css
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\libs\choices.min.js
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\libs\inputmask.min.js
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\libs\jquery.min.js
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\libs\jquery.min.map
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\libs\just-validate.production.min.js
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Task_22.staticwebassets.runtime.json
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Task_22.exe
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Task_22.deps.json
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Task_22.runtimeconfig.json
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Task_22.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Task_22.pdb
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Azure.Core.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Azure.Identity.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\EntityFramework.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Humanizer.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\System.CodeDom.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\System.Memory.Data.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\System.Text.Json.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\Task_22.csproj.AssemblyReference.cache
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\Task_22.GeneratedMSBuildEditorConfig.editorconfig
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\Task_22.AssemblyInfoInputs.cache
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\Task_22.AssemblyInfo.cs
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\Task_22.csproj.CoreCompileInputs.cache
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\Task_22.MvcApplicationPartsAssemblyInfo.cache
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\Task_22.RazorAssemblyInfo.cache
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\Task_22.RazorAssemblyInfo.cs
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\staticwebassets\msbuild.Task_22.Microsoft.AspNetCore.StaticWebAssets.props
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\staticwebassets\msbuild.build.Task_22.props
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Task_22.props
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Task_22.props
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\staticwebassets.pack.json
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\staticwebassets.build.json
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\staticwebassets.development.json
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\scopedcss\bundle\Task_22.styles.css
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\Task_22.csproj.CopyComplete
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\Task_22.dll
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\refint\Task_22.dll
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\Task_22.pdb
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\Task_22.genruntimeconfig.cache
+D:\тест 2\Web_IP\Task_22\obj\Debug\net6.0\ref\Task_22.dll
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\card\photoDefault.jpg
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\card\photo_1.3.jpg
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\card\photo_2.2.jpg
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\card\photo_3.9.jpg
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\card\photo_4.1.jpg
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\.filenesting.json
+D:\тест 2\Web_IP\Task_22\bin\Debug\net6.0\wwwroot\card\photo_5.1.jpg

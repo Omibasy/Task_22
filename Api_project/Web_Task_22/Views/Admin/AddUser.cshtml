@@ -1,0 +1,43 @@
+﻿@model Web_Task_22.Model.AuthPersonApp.AuthRepository.UserRegistration
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Новый пользователь";
+}
+
+<div class="row">
+    <div class="col-12">
+        <form id="RegistrationsUserForm" asp-action="AddNewUser" asp-antiforgery="true" class="form-user-registration">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <label class="label" for="Login">
+                <span class="label__span">Введите логин</span>
+                <input id="Login" autocomplete="off" asp-for="LoginProp" autocomplete="off" class="input" type="text">
+            </label>
+            <label class="label" for="Pssword">
+                <span class="label__span">Пароль</span>
+                <input id="Pssword" autocomplete="off" asp-for="Password" class="input" autocomplete="off" type="text">
+            </label>
+            <label class="label" for="Try-pssword">
+                <span class="label__span">Повторите пароль</span>
+                <input id="Try-pssword" autocomplete="off" asp-for="ConfirmPassword" class="input" type="text">
+            </label>
+            <label class="hystmodal-registrations__label-select user-select">
+                <select asp-for="Role" class="label-select__select select-default" id="select-default"
+                        aria-label="Пользователи">
+                    <option value="0">
+                        Пользователь
+                    </option>
+                    <option value="1">
+                        Администратор
+                    </option>
+                </select>
+            </label>
+            <button type="submit" class="button add-button">
+                Добавить
+            </button>
+        </form>
+    </div>
+</div>
+
+<script src="~/libs/just-validate.production.min.js"></script>
+<script src="~/libs/choices.min.js"></script>
+<script src="~/js/registration-user.js"></script>

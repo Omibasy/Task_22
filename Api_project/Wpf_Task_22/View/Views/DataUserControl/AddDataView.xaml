@@ -1,0 +1,286 @@
+﻿<UserControl x:Class="Wpf_Task_22.View.Views.DataUserControl.AddDataView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Wpf_Task_22.View.Views.DataUserControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" 
+             d:DesignWidth="800"
+             Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <ControlTemplate x:Key="validationErrorTemplate">
+            <DockPanel>
+                <TextBlock Foreground="Red" 
+                           DockPanel.Dock="Top"  
+                           Margin="5,0,0,0" 
+                           Text="{Binding ElementName=ErrorAdorner, 
+                                  Path=AdornedElement.(Validation.Errors)/ErrorContent}"/>
+                
+                <AdornedElementPlaceholder x:Name="ErrorAdorner" />
+            </DockPanel>
+        </ControlTemplate>
+        <Style TargetType="{x:Type TextBox}">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="True">
+                    <Setter Property="Foreground" Value="Red" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="{x:Type Button}" x:Key="CastomButton" >
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="3"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+    </UserControl.Resources>
+    <Grid Background="Lavender">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.1*"/>
+            <ColumnDefinition Width="0.4*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.85*" MinHeight="390"/>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="0.45*" MinHeight="200"/>
+        </Grid.RowDefinitions>
+      
+
+
+
+            <StackPanel  DockPanel.Dock="Left"
+                     Margin="50 10 10 10"
+                     Grid.Column="0"
+                     Grid.Row="0"
+                     HorizontalAlignment="Stretch">
+                
+                <StackPanel Margin="0 30 0 0">
+
+ 
+
+                
+                <DockPanel>
+                    <TextBlock Text="Имя:"
+                                   FontSize="14"
+                                   Margin="0 0 10 0"
+                                   Foreground="#FF495D70"
+                                   DockPanel.Dock="Left"/>
+
+                        <TextBlock Visibility="Hidden"
+                                   Width="60"/>
+                    <TextBox FontSize="14"                          
+                             DockPanel.Dock="Right"
+                             Validation.ErrorTemplate="{StaticResource validationErrorTemplate}">
+                        
+                        <TextBox.Text>
+                            <Binding Path="package.person.Name"                     
+                                     NotifyOnValidationError="True"
+                                     Mode="TwoWay"
+                                     UpdateSourceTrigger="PropertyChanged">
+                                
+                                <Binding.ValidationRules>
+                                    <DataErrorValidationRule />
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </DockPanel>
+                
+                </StackPanel>
+                <StackPanel Margin="0 30 0 0">
+
+                    <DockPanel>
+
+                        <TextBlock Text="Фамилия:"
+            FontSize="14"
+            Margin="0 0 10 0"
+            Foreground="#FF495D70"
+                                   DockPanel.Dock="Left"/>
+
+                        <TextBlock Visibility="Hidden"
+                                   Width="30"/>
+
+                    <TextBox FontSize="14"
+                             Validation.ErrorTemplate="{StaticResource validationErrorTemplate}"
+                             DockPanel.Dock="Right">
+                        <TextBox.Text>
+                            <Binding Path="package.person.Surname"                     
+                                     NotifyOnValidationError="True"
+                                     Mode="TwoWay"
+                                     UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <DataErrorValidationRule />
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </DockPanel>
+                </StackPanel>
+ 
+            <StackPanel Margin="0 30 0 0">
+
+                    <DockPanel
+                        >
+
+                        <TextBlock Text="Отчество:"
+                           FontSize="14"
+                           Margin="0 0 10 0"
+                           Foreground="#FF495D70"
+                                   DockPanel.Dock="Left"/>
+
+
+                        <TextBlock Visibility="Hidden"
+                                   Width="28"/>
+                    <TextBox FontSize="14"
+                             Validation.ErrorTemplate="{StaticResource validationErrorTemplate}"
+                             DockPanel.Dock="Right">
+                        <TextBox.Text>
+                            <Binding Path="package.person.Patomic"                     
+                                     NotifyOnValidationError="True"
+                                     Mode="TwoWay"
+                                     UpdateSourceTrigger="PropertyChanged">
+                                
+                                <Binding.ValidationRules>
+                                    <DataErrorValidationRule />
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </DockPanel>
+                </StackPanel>
+            <StackPanel Margin="0 30 0 0">
+                <DockPanel>
+                    <TextBlock Text="Телефон:"
+                                   FontSize="14"
+                                   Margin="0 0 10 0"
+                                   Foreground="#FF495D70"
+                                   DockPanel.Dock="Left"/>
+
+                        <TextBlock Visibility="Hidden"
+                                   Width="32"/>
+                        
+                    <TextBox FontSize="14"
+                             Validation.ErrorTemplate="{StaticResource validationErrorTemplate}"
+                             DockPanel.Dock="Right"
+                             PreviewTextInput="TextBox_PreviewTextInput"
+                             PreviewKeyDown="PhoneNumberText_PreviewKeyDown"
+                             TextChanged="PhoneNumberText_TextChanged"
+                             DataObject.Pasting="TextBoxPasting"
+                             x:Name="PhoneNumberText"
+                             MaxLength="11">
+                        
+                        <TextBox.Text>
+                            <Binding Path="package.personalData.PhoneNumber"                     
+                                     NotifyOnValidationError="True"
+                                     Mode="TwoWay"
+                                     UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <DataErrorValidationRule />
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </DockPanel>
+                </StackPanel>
+                <StackPanel Margin="0 30 0 0">
+  
+                    <DockPanel>
+
+                        <TextBlock Text="Адрес:"
+             FontSize="14"
+             Margin="0 0 10 0"
+             Foreground="#FF495D70"
+                                   DockPanel.Dock="Left"
+                                   TextWrapping="Wrap"/>
+
+   
+                        <TextBlock Visibility="Hidden"
+                                   Width="49"/>
+                    <TextBox FontSize="14"
+                             Height="45"
+                             Validation.ErrorTemplate="{StaticResource validationErrorTemplate}"
+                             DockPanel.Dock="Right">
+                        <TextBox.Text>
+                            <Binding Path="package.personalData.Address"                     
+                                     NotifyOnValidationError="True"
+                                     Mode="TwoWay"
+                                     UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <DataErrorValidationRule />
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </DockPanel>
+                </StackPanel>
+              
+            </StackPanel>
+
+            <DockPanel  HorizontalAlignment="Left"
+                        Grid.Column="2"
+                        Grid.Row="0"
+                        Margin="10"
+                        VerticalAlignment="Stretch">
+       
+            <Button Style="{StaticResource CastomButton}"
+                    HorizontalAlignment="Left"
+                    Margin="0 20 0 0"
+                    Content="Найти фото"
+                    Width="80"
+                    DockPanel.Dock="Bottom"
+                    Click="Add_Photo_Click">
+            </Button>
+            <Image Source="{Binding UrlPhoto}"
+                x:Name="PhotoPerson"
+                   DockPanel.Dock="Top"
+                   HorizontalAlignment="Left"/>
+
+        </DockPanel>
+        <GridSplitter Grid.Row="1"
+                      Grid.Column="0"
+                      Height="3"
+                      Grid.ColumnSpan="3"
+                      Background="#FFB1ADF6"
+                      ShowsPreview="False"
+                      HorizontalAlignment="Stretch" 
+                      VerticalAlignment="Center"/>
+        <DockPanel Margin="10 0 10 10"
+                   Grid.Column="0"
+                    Grid.ColumnSpan="3"
+                    Grid.Row="2"
+                    VerticalAlignment="Stretch">
+                    
+                <TextBlock Text="Описание:"
+                           FontSize="22"
+                           Margin="20 0 0 10"
+                           Foreground="#FF495D70"
+                           DockPanel.Dock="Top"/>
+
+            <Button Content="Добавить"
+                        DockPanel.Dock="Bottom"
+                        Command="{Binding SendPackageCommand}"
+                        CommandParameter="{Binding ElementName=PhotoPerson, Path=Source, Mode=OneWay}"
+                    Width="70"
+                    HorizontalAlignment="Right"
+                    Style="{StaticResource CastomButton}"/>
+            <TextBox FontSize="18"
+                     Margin="0 0 0 10"
+                     TextWrapping="Wrap"
+                     Validation.ErrorTemplate="{StaticResource validationErrorTemplate}">
+                <TextBox.Text>
+                    <Binding Path="package.personalData.Description"                     
+                             NotifyOnValidationError="True"
+                             Mode="TwoWay"
+                             UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <DataErrorValidationRule/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+        </DockPanel>
+
+    </Grid>
+</UserControl>

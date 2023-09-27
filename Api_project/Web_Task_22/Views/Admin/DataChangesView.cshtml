@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Изменение данных";
+}
+
+<div class="row">
+    <div class="col-12">
+        <form id="SubmittingAForm" class="form">
+            <div class="box-right">
+                <label class="label" for="phone">
+                    <span class="label__span">Введите номер телефона</span>
+                    <input id="phone" value="@ViewBag.Data.Data.PhoneNumber" name="tel" class="input" type="tel">
+                </label>
+                <p class="hidden-block" id="data-id">
+                    @ViewBag.Data.Data.ID
+                </p>
+                <p class="hidden-block" id="id">
+                    @ViewBag.Data.Data.PersonID.ID
+                </p>
+                <label class="label label-addres" for="addres">
+                    <span class="label__span">Введите адрес</span>
+                    <input id="addres" value="@ViewBag.Data.Data.Address" name="addres" type="text" class="input">
+                </label>
+            </div>
+            <div class="box-left">
+                <label class="label" for="Name">
+                    <span class="label__span">Введите имя</span>
+                    <input id="Name" value="@ViewBag.Data.Data.PersonID.Name" name="name" class="input" type="text">
+                </label>
+                <label class="label" for="Surname">
+                    <span class="label__span">Введите фамилию</span>
+                    <input id="Surname" value="@ViewBag.Data.Data.PersonID.Surname" name="surname" class="input" type="text">
+                </label>
+                <label class="label" for="Patronymic">
+                    <span class="label__span">Введите отчество</span>
+                    <input id="Patronymic" value="@ViewBag.Data.Data.PersonID.Patomic" name="patronymic" class="input" type="text">
+                </label>
+            </div>
+            <label class="label label-descr" for="Description">
+                <span class="label__span">Введите описание</span>
+                <textarea class="textarea input" name="description" id="Description" cols="30" rows="10">@ViewBag.Data.Data.Description</textarea>
+            </label>
+            <button class="button button-put">
+                Сохранить
+            </button>
+        </form>
+
+    </div>
+</div>
+
+<script src="~/libs/just-validate.production.min.js"></script>
+<script src="~/libs/inputmask.min.js"></script>
+<script src="~/libs/jquery.min.js"></script>
+<script src="~/js/PutIndex.js"></script>

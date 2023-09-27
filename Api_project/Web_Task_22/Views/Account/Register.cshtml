@@ -1,0 +1,48 @@
+﻿@model Web_Task_22.Model.AuthPersonApp.AuthRepository.UserRegistration
+@{
+    ViewData["Title"] = "Регестрация";
+}
+
+
+<div class="hystmodal-registrations row">
+    <div class="hystmodal-registrations__window col-7">
+        <h2 class="hystmodal-registrations__title">
+            Регистрация
+        </h2>
+        <form id="LogInForm-registrations" asp-action="Register" asp-antiforgery="true" class="hystmodal-registrations__form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <label class="hystmodal-registrations__label" for="Login-registrations">
+                <span class="hystmodal-registrations__span-label">введите логин</span>
+                <input id="Login-registrations" autocomplete="off" asp-for="LoginProp" placeholder="Логин" type="text"
+                       class="hystmodal-registrations__input login">
+            </label>
+            <label class="hystmodal-registrations__label" for="Password-registrations">
+                <span class="hystmodal-registrations__span-label">введите пароль</span>
+                <input type="password" autocomplete="off" id="Password-registrations" placeholder="Пароль" asp-for="Password"
+                       class="hystmodal-registrations__input password">
+            </label>
+            <label class="hystmodal-registrations__label hystmodal__label--bottom" for="Password-confirmation">
+                <span class="hystmodal-registrations__span-label">повторите пароль</span>
+                <input type="password" autocomplete="off" id="Password-confirmation" placeholder="Повторите пароль" asp-for="ConfirmPassword"
+                       class="hystmodal-registrations__input password">
+            </label>
+            <label class="hystmodal-registrations__label-select" id="select-default">
+                <select asp-for="Role" class="label-select__select select-default" id="select-default"
+                        aria-label="Пользователи">
+                    <option value="0">
+                        Пользователь
+                    </option>
+                    <option value="1">
+                        Администратор
+                    </option>
+                </select>
+            </label>
+            <button type="submit" class="hystmodal-registrations__btn button-reset">
+                Зарегестрироватся
+            </button>
+        </form>
+    </div>
+</div>
+<script src="~/libs/just-validate.production.min.js"></script>
+<script src="~/libs/choices.min.js"></script>
+<script src="~/js/registration2.js"></script>

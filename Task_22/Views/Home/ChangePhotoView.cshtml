@@ -1,0 +1,32 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Редактирование фото";
+}
+
+
+
+<div class="row">
+    <div class="col-12 ">
+        <div class="flex-center">
+            <img id="blah" class="Img-change" src="@ViewBag.Data.Item2" alt="фото человека">
+        </div>
+        <form id="SubmittingAForm" action="ChangePhoto" enctype="multipart/form-data" method="post" class="box-file">
+            <div class="box-input">
+                <input id="id" name="id" class="hidden-block" value="@ViewBag.Data.Item1" type="text">
+                <p class="label__text">Выберите файл</p>
+                <label class="label input-file box-input__input" for="file">
+                    <span class="input-file-text" type="text">Файл формата png 350x310</span>
+                    <input onchange='myFunc(this)' type="file" name="file" id="file" class="input input__file-old">
+                    <span class="input-file-btn btn-custom">Вставте фото</span>
+                </label>
+            </div>
+            <button class="button button-reset margin-left">
+                Изменить
+            </button>
+        </form>
+    </div>
+</div>
+
+<script src="~/libs/just-validate.production.min.js"></script>
+<script src="~/libs/jquery.min.js"></script>
+<script src="~/js/PutPhoto.js"></script>

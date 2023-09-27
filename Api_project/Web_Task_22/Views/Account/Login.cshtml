@@ -1,0 +1,33 @@
+﻿@model Web_Task_22.Model.AuthPersonApp.UserLogin
+@{
+    ViewData["Title"] = "Вход";
+}
+<div class="hystmodal row">
+    <div class="hystmodal__window col-5">
+        <h2 class="hystmodal__title">
+            Вход
+        </h2>
+        <form id="LogInForm" asp-action="Login" asp-antiforgery="true" class="hystmodal__form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input class="input-url" asp-for="ReturnUrl" />
+            <label class="hystmodal__label" for="Login">
+                <span class="hystmodal__span-label">введите логин</span>
+                <input id="Login" autocomplete="off" asp-for="LoginProp" placeholder="Логин" type="text"
+                       class="hystmodal__input login">
+            </label>
+            <label class="hystmodal__label hystmodal__label--bottom" for="Password">
+                <span class="hystmodal__span-label">введите пароль</span>
+                <input type="password" autocomplete="off" id="Password" asp-for="Password" placeholder="Пароль"
+                       class="hystmodal__input password">
+            </label>
+            <button type="submit" class="hystmodal__btn button-reset">
+                Войти
+            </button>
+        </form>
+    </div>
+</div>
+
+
+
+
